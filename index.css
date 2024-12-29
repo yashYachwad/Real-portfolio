@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    background-color: rgba(235, 87, 87, 0.559);
+    height:10vh;
+    width: 94vw;
+    font-size:50px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: sticky;
+    top: 0px;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+   
+}
+
+#menu{
+   
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 80vw;
+
+}
+
+.handles{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 42px;
+    height: 90px;
+    margin-left: 84vw;
+    position: absolute;
+    z-index: 2; 
+   
+
+ }
+ 
+
+
+
+.img_view{
+    height:89vh;
+    width: 99vw;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: black;
+    z-index: -1; 
+}
+#img{
+    height: 50vh;
+    width: 55vw;
+    margin-top: 5vh;
+    background-image: url("yash.pf.jpg");
+    background-size: cover;
+    background-position:center;
+    border: 2px dotted wheat;
+    border-radius: 80%;
+    box-shadow: 5px 10px 25px aqua;
+
+}
+ #img_plate{
+    height: 15vh;
+    width: 80vw;
+    border-radius: 5%;
+    box-shadow: 5px 5px 15px rgba(235, 87, 87, 0.559);
+    /* background-color: rgb(63, 62, 62); */
+    border-right: 5px solid gray ;
+    border-left: 5px solid gray ;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    color: white;
+    text-align: start;
+    padding: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+} 
+
+#hire{
+    height: 30vh;
+    width: 100vw;
+    background-color:pink;
+    padding-top: 20px;
+    text-align:  center;
+}
+
+#connect{
+    height: 25px;
+    width: 100px;
+    background-color: rgb(241, 87, 241);
+    border: 2px solid rgb(253, 91, 253);
+    border-radius: 5px;
+}
+.skills{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgba(235, 87, 87, 0.559) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+#c{
+    height: 15vh;
+    width: 75vw;
+    background-color: rgb(206, 247, 247);
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px;
+    margin-left: 15vw;
+}
+#html{
+    height: 15vh;
+    width: 75vw;
+    background-color: rgb(206, 247, 247);
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    border-right: gray;
+    padding: 5px;
+    margin-right: 15vw;
+    border-radius: 10px;
+
+}
+#css{
+    height: 15vh;
+    width: 75vw;
+    background-color: rgb(206, 247, 247);
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 15vw;
+}
+#js{
+    height: 15vh;
+    width: 75vw;
+    background-color:rgb(206, 247, 247) ;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px;
+    margin-right: 15vw;
+    border-radius: 10px;
+
+}
+
+.projects{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgba(235, 87, 87, 0.559) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#net1{
+    height: 25vh;
+    width: 85vw;
+    border: 2px solid black;
+    background-image: url("netflixfront.png");
+    background-size: cover;
+}
+#net2{
+    height: 25vh;
+    width: 85vw;
+    border: 2px solid black;
+    background-image: url("netflix.png");
+    background-size: cover;
+
+}
+#net3{
+    height: 25vh;
+    width: 85vw;
+    border: 2px solid black;
+    background-image: url("netflix2.png");
+    background-size: cover;
+}
+
+
+.project2{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgba(235, 87, 87, 0.559) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#stax1{
+    height: 25vh;
+    width: 85vw;
+    border: 2px solid black;
+    background-image: url("staxfront.png");
+    background-size: cover;
+}
+
+#stax2{
+    height: 25vh;
+    width: 85vw;
+    border: 2px solid black;
+    background-image: url("stax.png");
+    background-size: cover;
+}
+
+.contact{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgba(235, 87, 87, 0.559) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#sub{
+    height: 20px;
+    width: 47vw;
+    background-color: rgb(250, 51, 51);
+    border: 2px solid rgb(250, 51, 51) ;
+    border-radius: 5px;
+    color: wheat;
+}
+#info{
+    padding-left: 25vw;
+   
+}
+#footer{
+    height: 50vh;
+    background-color: rgba(40, 39, 39, 0.963);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);    
+
+}
+
+#column{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-top: 50px;
+    justify-content:space-between ;
+    gap: 45px;
+    align-items: start;
+    color: rgba(255, 255, 255, 0.7);    
+}
